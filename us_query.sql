@@ -12,4 +12,7 @@ FROM Test3 AS t3
 INNER JOIN USVideos AS us ON
 t3.video_id = us.video_id;
 
+-- Find the total number of videos in the political bias data
+SELECT COUNT(*) FROM Test3;
+
 SELECT * FROM Test4;
